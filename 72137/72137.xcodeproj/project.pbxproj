@@ -11,7 +11,6 @@
 		EAF0E42D20D8ED2E007917CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAF0E42B20D8ED2E007917CB /* Main.storyboard */; };
 		EAF0E42F20D8ED2F007917CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAF0E42E20D8ED2F007917CB /* Assets.xcassets */; };
 		EAF0E43220D8ED2F007917CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAF0E43020D8ED2F007917CB /* LaunchScreen.storyboard */; };
-		EAF0E43A20D904A6007917CB /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = EAF0E43920D904A6007917CB /* Classes */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,7 +20,6 @@
 		EAF0E42E20D8ED2F007917CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAF0E43120D8ED2F007917CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EAF0E43320D8ED2F007917CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EAF0E43920D904A6007917CB /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +52,53 @@
 		EAF0E42620D8ED2E007917CB /* 72137 */ = {
 			isa = PBXGroup;
 			children = (
-				EAF0E43920D904A6007917CB /* Classes */,
+				EAF0E43B20D906CA007917CB /* Classes */,
 				EAF0E42720D8ED2E007917CB /* AppDelegate.swift */,
-				EAF0E42B20D8ED2E007917CB /* Main.storyboard */,
 				EAF0E42E20D8ED2F007917CB /* Assets.xcassets */,
 				EAF0E43020D8ED2F007917CB /* LaunchScreen.storyboard */,
 				EAF0E43320D8ED2F007917CB /* Info.plist */,
 			);
 			path = 72137;
+			sourceTree = "<group>";
+		};
+		EAF0E43B20D906CA007917CB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EAF0E43C20D906D3007917CB /* Main */,
+				EAF0E43E20D906E1007917CB /* Home */,
+				EAF0E43F20D906EB007917CB /* Survey */,
+				EAF0E43D20D906DA007917CB /* Tab */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EAF0E43C20D906D3007917CB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				EAF0E42B20D8ED2E007917CB /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		EAF0E43D20D906DA007917CB /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
+		EAF0E43E20D906E1007917CB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EAF0E43F20D906EB007917CB /* Survey */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Survey;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,7 +160,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAF0E43220D8ED2F007917CB /* LaunchScreen.storyboard in Resources */,
-				EAF0E43A20D904A6007917CB /* Classes in Resources */,
 				EAF0E42F20D8ED2F007917CB /* Assets.xcassets in Resources */,
 				EAF0E42D20D8ED2E007917CB /* Main.storyboard in Resources */,
 			);
@@ -280,7 +316,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DHHR5HHYJW;
 				INFOPLIST_FILE = 72137/Info.plist;
@@ -300,7 +336,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DHHR5HHYJW;
 				INFOPLIST_FILE = 72137/Info.plist;
