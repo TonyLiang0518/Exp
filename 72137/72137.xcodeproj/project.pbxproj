@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EAA6AA1021448455003FC1CD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA6AA0F21448455003FC1CD /* HomeViewController.swift */; };
+		EAA6AA13214497ED003FC1CD /* UIBarButtonItem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA6AA12214497ED003FC1CD /* UIBarButtonItem-Extension.swift */; };
 		EAF0E42820D8ED2E007917CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF0E42720D8ED2E007917CB /* AppDelegate.swift */; };
 		EAF0E42D20D8ED2E007917CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAF0E42B20D8ED2E007917CB /* Main.storyboard */; };
 		EAF0E42F20D8ED2F007917CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAF0E42E20D8ED2F007917CB /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EAA6AA0F21448455003FC1CD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EAA6AA12214497ED003FC1CD /* UIBarButtonItem-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem-Extension.swift"; sourceTree = "<group>"; };
 		EAF0E42420D8ED2E007917CB /* 72137.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 72137.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAF0E42720D8ED2E007917CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAF0E42C20D8ED2E007917CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -39,6 +43,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EAA6AA0921448334003FC1CD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EAF0E44020DA531D007917CB /* Home.storyboard */,
+				EAA6AA0F21448455003FC1CD /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EAA6AA0A21448334003FC1CD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EAA6AA0B21448335003FC1CD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EAA6AA0C21448393003FC1CD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EAA6AA0D21448393003FC1CD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EAA6AA0E21448393003FC1CD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EAA6AA11214497BC003FC1CD /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EAA6AA12214497ED003FC1CD /* UIBarButtonItem-Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		EAF0E41B20D8ED2E007917CB = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +138,9 @@
 		EAF0E43C20D906D3007917CB /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				EAA6AA0D21448393003FC1CD /* Controller */,
+				EAA6AA0C21448393003FC1CD /* Model */,
+				EAA6AA0E21448393003FC1CD /* View */,
 				EAF0E42B20D8ED2E007917CB /* Main.storyboard */,
 			);
 			path = Main;
@@ -98,7 +157,9 @@
 		EAF0E43E20D906E1007917CB /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				EAF0E44020DA531D007917CB /* Home.storyboard */,
+				EAA6AA0921448334003FC1CD /* Controller */,
+				EAA6AA0A21448334003FC1CD /* Model */,
+				EAA6AA0B21448335003FC1CD /* View */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -114,6 +175,7 @@
 		EAF0E44820DA5386007917CB /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				EAA6AA11214497BC003FC1CD /* Extension */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -193,6 +255,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAF0E42820D8ED2E007917CB /* AppDelegate.swift in Sources */,
+				EAA6AA1021448455003FC1CD /* HomeViewController.swift in Sources */,
+				EAA6AA13214497ED003FC1CD /* UIBarButtonItem-Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
